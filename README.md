@@ -12,6 +12,7 @@
 接下来一个n × n 的矩阵，0 代表无障碍，1 代表有障碍。
 
 例子1：
+```
 10
 0111100110
 0001101010
@@ -23,8 +24,9 @@
 0001010110
 0110001110
 0100110010
-
+```
 例子2：
+```
 20
 01100100001000100100
 00000010111101000001
@@ -46,7 +48,7 @@
 00001011110011000010
 01111011110111010100
 10000111110110001100
-
+```
 ## 编码
 
 ### encode.py是编码源代码
@@ -55,8 +57,7 @@
 
 ### SAT solver 去解CNF文件
 
-![SATSolution](C:\Users\yang xu\Desktop\SATSolution.png)
-
+![SATSolution](https://user-images.githubusercontent.com/48397805/163674099-b620d6f1-6bcb-4f95-ac42-f55169e1be0b.png)
 SAT求解得到的解放在solutionValue.txt（solutionValue20.txt）中
 
 ## 解码
