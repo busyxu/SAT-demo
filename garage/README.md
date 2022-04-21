@@ -13,7 +13,7 @@ P(i,j,k)表示第i层，第j列的车位转态，k∈{0,1,2,3,4,5,6,7,8,9}。k=0
 
 ### 2.1 encode.py是编码源代码
 
-代码会随机生成一个车库停车情况map并写入input.txt，输出CNF文件cnfFile.txt。下面块是input.txt样例
+代码会随机生成一个车库停车情况map并写入input.txt，输出CNF文件cnfFile.cnf。下面块是input.txt样例
 
 ```
 1 1 1 0 1 0 0 1 0 1
@@ -30,7 +30,7 @@ P(i,j,k)表示第i层，第j列的车位转态，k∈{0,1,2,3,4,5,6,7,8,9}。k=0
 
 ### 2.2 SAT solver 去解CNF文件
 
-![image](https://user-images.githubusercontent.com/48397805/164182780-e2b314f2-56da-47ab-bea6-031856f3f4d0.png)
+![image](https://user-images.githubusercontent.com/48397805/164376112-cf176a47-5b89-4b78-9099-edd66daa52b8.png)
 SAT求解得到的解放在SATsolution.txt中
 
 ## 3. 解码

@@ -53,11 +53,12 @@
 
 ### encode.py是编码源代码
 
-代码会读取input.txt（input20.txt），输出CNF文件data.txt（data20.txt）和可能路径文件mayPath.txt（mayPath20.txt）
+代码会读取input.txt（input20.txt），输出CNF文件data.cnf（data20.cnf）和可能路径文件mayPath.txt（mayPath20.txt）
 
 ### SAT solver 去解CNF文件
 
-![SATSolution](https://user-images.githubusercontent.com/48397805/163674099-b620d6f1-6bcb-4f95-ac42-f55169e1be0b.png)
+![image](https://user-images.githubusercontent.com/48397805/164375523-34a89496-13d3-48b9-95c4-5e58811da95c.png)
+
 SAT求解得到的解放在solutionValue.txt（solutionValue20.txt）中
 
 ## 解码
